@@ -1,0 +1,11 @@
+cache:
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - .npm/
+
+test:
+  image: node:18
+  stage: test
+  script:
+    - npm ci --cache .npm --prefer-offline
+    - npm run test
