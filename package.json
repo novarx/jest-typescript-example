@@ -1,7 +1,7 @@
 {
   "name": "jest-typescript-starter",
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.0.1",
+  "type": "commonjs",
   "scripts": {
     "test": "jest",
     "dev": "jest --watchAll"
