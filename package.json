@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",
